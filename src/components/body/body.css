@@ -1,0 +1,34 @@
+.body {
+  height: calc(100vh - 140px);
+  width: calc(100vw - 230px);
+  background-color: rgb(91, 87, 115);
+  color: white;
+  overflow-y: overlay;
+  padding: 30px;
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+.body__icons {
+  display: flex;
+  align-items: center;
+}
+.body__icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.body__shuffle__play {
+  font-size: 80px !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.body__shuffle__play:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.1);
+}
+
+.body__songs {
+  margin: 20px -30px;
+}

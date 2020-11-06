@@ -1,0 +1,75 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  background-color: #282828;
+  padding: 20px;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__center {
+  flex: 0.4;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  justify-content: space-between;
+  max-width: 300px;
+}
+.footer__left {
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+.footer__left > img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.footer__songInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer__songInfo > h4 {
+  font-size: 14px;
+}
+.footer__songInfo > p {
+  font-size: 12px;
+  color: gray;
+}
+
+.footer__right {
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  color: white;
+}
+
+.footer__icon {
+  color: white;
+}
+.footer__icon:hover,
+.footer__green:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+  cursor: pointer;
+}
+
+.footer__right * .MuiSlider-root {
+  color: #1db954;
+  max-width: 200px;
+}
+
+.footer__green {
+  color: #1db954;
+}
