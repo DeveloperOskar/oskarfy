@@ -1,3 +1,9 @@
+
+# A Spotify Copy 
+- Made with React JS, spotifys web js sdk and reacts context api. 
+- Link explaining the code and showing the project: 
+- A project for learning more about react.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
